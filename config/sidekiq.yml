@@ -1,0 +1,9 @@
+development:
+  :concurrency: 5
+:queues:
+  - high
+  - mailers
+  - default
+  - action_mailbox_routing
+  - action_mailbox_incineration
+  - low
